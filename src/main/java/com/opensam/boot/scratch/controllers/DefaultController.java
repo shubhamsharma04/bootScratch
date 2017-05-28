@@ -18,7 +18,6 @@ public class DefaultController {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		System.out.println(name);
 		return "Hello World!";
 	}
 	
