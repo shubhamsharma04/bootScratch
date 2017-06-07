@@ -18,7 +18,7 @@ public class DefaultController {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello World!";
+		return "Whatever";
 	}
 	
 }
